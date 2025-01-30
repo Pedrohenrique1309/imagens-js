@@ -1,0 +1,37 @@
+:root{
+    --imagem1: background-image: url(./Ryan Francisco.webpp);
+    --imagem2: background-image: url(./Matheus Alves.jpg);
+    --imagem3: background-image: url(./Ferreira.webpp);
+    --imagem4: background-image: url(./negrucci.webpp);
+    --imagem5: background-image: url(./maikgomes.jpeg);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--imagem-fundo);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#imagem{
+    padding: 8px;
+    font-size: 32px;
+    outline: none;
+}
+
+#trocar-imagem{
+    padding: 8px 16px;
+    font-size:  32px;
+    cursor: pointer;
+}
