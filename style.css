@@ -1,9 +1,9 @@
 :root{
-    --imagem1: background-image: url(./Ryan Francisco.webpp);
-    --imagem2: background-image: url(./Matheus Alves.jpg);
-    --imagem3: background-image: url(./Ferreira.webpp);
-    --imagem4: background-image: url(./negrucci.webpp);
-    --imagem5: background-image: url(./maikgomes.jpeg);
+    --imagem1:  url('./urus.jpg');
+    --imagem2:  url('./revuelto.jpg');
+    --imagem3:  url('./Rolls-Royce.jpg');
+    --imagem4:  url('./purosangue.jpg');
+    --imagem5:  url('./mc20.jpg');
 }
 
 
@@ -18,16 +18,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: var(--imagem-fundo);
-    background-size: cover; 
+    background-image: var(--imagem1);
+    background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-}
-
-#imagem{
-    padding: 8px;
-    font-size: 32px;
-    outline: none;
 }
 
 #trocar-imagem{
